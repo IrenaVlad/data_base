@@ -8,7 +8,6 @@ import export_in_file as eif
 
 
 def user_choice():
-
     choice_num = ui.menu()
     if choice_num < 0 or choice_num > 7:
         print('\nНеверный ввод!\n\nВведите, пожалуйста, число от 0 до 7!\n')

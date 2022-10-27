@@ -12,7 +12,7 @@ def delete_employe():
             if name == data[i]['Name'] or name == data[i]['Surname']:
                 del data[i]
         # if name not in data:
-        #         print('Такого контакта нет')
+        #         print('Такого сотрудника нет')
     with open(path_to_db, 'w', encoding='UTF-8') as file:
         json.dump(data, file, indent=4)
     print('\nДанные о сотруднике успешно удалены!\n')

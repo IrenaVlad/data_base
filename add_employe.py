@@ -24,5 +24,5 @@ def add_to_json():
     data.append(json_data)
     with open("db.json", "w") as file:
         json.dump(data, file, indent=2, ensure_ascii=False)
-    print('\nНовый контакт успешно добавлен!\n')
+    print('\nНовый сотрудник успешно добавлен!\n')
     logic.user_choice()
