@@ -1,6 +1,4 @@
 import chek
-from export_in_file import export_txt
-
 
 def start():
     greetings = 'Добрый день! Вас приветствует база данных стоматологической клиники "Добрый стоматолог"'
@@ -16,7 +14,7 @@ def menu():
     change_surname = '3. Изменить фамилию сотрудника'
     delete_employe = '4. Удалить профиль сотрудника'
     view_all_employe = '5. Показать всех сотрудников'
-    export_to_file = '6. Экспортировать все записи в файл'
+    export_in_file = '6. Экспортировать запись в файл'
     to_exit = '7. Выход'
-    print(f'{what_to_do}\n\n{new_book}\n{new_employe}\n{change_number}\n{change_surname}\n{delete_employe}\n{view_all_employe}\n{export_to_file}\n{to_exit}')
+    print(f'{what_to_do}\n\n{new_book}\n{new_employe}\n{change_number}\n{change_surname}\n{delete_employe}\n{view_all_employe}\n{export_in_file}\n{to_exit}')
     return chek.digit_check()

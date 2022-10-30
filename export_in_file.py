@@ -9,7 +9,7 @@ def export_txt():
         data = json.load(file)
         for i in range(0, len(data)):
             if name == data[i]['Name'] or name == data[i]['Surname']:
-                with open('Export_contact.txt', 'a') as export:
+                with open('Export_emploe.txt', 'a') as export:
                     export.write('\n' + "".join(data[i]['Name']) + ' ' + "".join(
                         data[i]['Surname']) + ' ' + "".join(data[i]['Phone number']) + ' ' + "".join(data[i]['Comment']))
 

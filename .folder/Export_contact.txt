@@ -6,3 +6,5 @@ Nadezda Iliasova 135-246 Gigienist
 Natalia Ter-Avanesova 123-456 Main doctor
 Albert Iliasov 456-123 hirurg
 Nadezda Iliasova 135-246 Gigienist
+Natalia Ter-Avanesova 123-456 Main doctor
+Albert Iliasov 456-123 hirurg

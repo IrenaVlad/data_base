@@ -1,1 +1,14 @@
-{"Name" : "Irina"}
+[
+{
+    "Name": "Lubov",
+    "Surname": "Eremenko",
+    "Phone number": "678-901",
+    "Comment": "Admin"
+},
+{
+    "Name": "Maria",
+    "Surname": "Yagova",
+    "Phone number": "987-654",
+    "Comment": "Assistent"
+}
+]
